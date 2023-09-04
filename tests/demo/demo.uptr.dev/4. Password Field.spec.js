@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Password Field', async ({ page }) => {
-    test.setTimeout(60000);
+
     await page.goto('https://demo.uptr.dev/auth/register');
 
     //await page.pause();
